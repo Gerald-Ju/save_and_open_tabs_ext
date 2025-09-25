@@ -1,0 +1,67 @@
+body {
+    width: 400px;
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.options {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#popup-content button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #c95806;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#popup-content button:hover {
+    background-color: rgb(153, 51, 0);
+}
+
+
+.center {
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.center h3 {
+    align-content: center;
+}
+
+
+/* File input styling */
+#fileElem {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    width: 90%;
+}
+
+#fileElem:hover {
+    border-color: rgb(153, 51, 0);
+    background-color: #f0f0f0;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.error-content {
+    color: red;
+    padding: 10px;
+}
+
+.content {
+    color: green;
+    padding: 10px;
+}

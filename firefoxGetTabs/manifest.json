@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Get Tabs",
+  "version": "1.0",
+  "description": "Gets all tabs from current window and can restore them",
+  "icons": {
+    "48": "icons/tabs-48.png"
+  },
+
+  "permissions": [
+    "activeTab", 
+    "tabs",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/tabs-48.png",
+    "default_title": "Get Tabs",
+    "default_popup": "popup/tabs.html"
+  },
+  
+  "incognito": "spanning"
+}
