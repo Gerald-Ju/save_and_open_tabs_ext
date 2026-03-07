@@ -6,11 +6,16 @@ Available for Chrome and Firefox.
 Clone or download to get started.
 
 
-
 ## Deployment/Run Locally
 
 
 To deploy this project in Firefox 
+    
+```
+  https://addons.mozilla.org/en-US/firefox/addon/get-and-open-tabs/
+```
+
+Or
 
 ```
   Open the "about:debugging" page by typing it into the search bar
@@ -45,7 +50,7 @@ To deploy this project in Chrome
 
 ## Roadmap
 
-- Add to store to allow non-local deployment
+- Add to store to allow non-local deployment (07/03/2026 Added to Firefox Store)
 
 - Add About description
 
