@@ -12,7 +12,7 @@ Clone or download to get started.
 To deploy this project in Firefox 
     
 ```
-  https://addons.mozilla.org/en-US/firefox/addon/get-and-open-tabs/
+https://addons.mozilla.org/en-US/firefox/addon/get-and-open-tabs/
 ```
 
 Or
