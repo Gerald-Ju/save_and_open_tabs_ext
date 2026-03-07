@@ -28,6 +28,7 @@ Or
   If you want to use this extension in private browsing:
     - Open the "about:addons" page
     - Click on the extension, and select the "Allow" for Run in Private Windows.
+    - Alternatively, simply right click the icon and manage extension settings.
 ```
 
 To deploy this project in Chrome
