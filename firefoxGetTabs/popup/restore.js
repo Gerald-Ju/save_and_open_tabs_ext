@@ -105,13 +105,17 @@ function createNewWindow(urls) {
             url: urls[0],
             focused: true,
             incognito: true,
-            type: "normal"
+            type: "normal",
+            width: 1280,
+            height: 800
         };
     } else {
         windowOptions = {
             url: urls[0],
             focused: true,
-            type: "normal"
+            type: "normal",
+            width: 1100,
+            height: 850
         }
     }
 
@@ -138,38 +142,6 @@ function createNewWindow(urls) {
             window.close();
             return;
         }
-        
-        // // Add remaining URLs as tabs
-        // let tabsCreated = 1;
-        // let errors = 0;
-        
-        // for (let i = 1; i < urls.length; i++) {
-        //     console.log("Creating tab", i + 1, "with URL:", urls[i]);
-            
-        //     browser.tabs.create({
-        //         windowId: newWindow.id,
-        //         url: urls[i],
-        //         active: false
-        //     }, function(tab) {
-        //         console.log(`Tab creation callback for tab ${i + 1}`);
-        //         tabsCreated++;
-                
-        //         if (browser.runtime.lastError) {
-        //             console.error(`Error creating tab ${i + 1}:`, browser.runtime.lastError);
-        //             errors++;
-        //         } else {
-        //             console.log(`Tab ${i + 1} created successfully:`, tab ? tab.id : 'no tab object');
-        //         }
-                
-        //         // Check if all tabs are processed
-        //         if (tabsCreated === urls.length) {
-        //             const successCount = urls.length - errors;
-        //             console.log(`Process complete: ${successCount} out of ${urls.length} tabs opened`);
-        //             alert(`Opened ${successCount} out of ${urls.length} tabs in new window`);
-        //             window.close();
-        //         }
-        //     });
-        // }
 
         // Track results for detailed reporting
         let tabsCreated = 1; // First tab already created with window
