@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Get Tabs",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Gets all tabs from current window and can restore them",
   "icons": {
     "48": "icons/tabs-48.png"
